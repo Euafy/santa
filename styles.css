@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.becuri-top {
+    /* border: 2px solid purple; */
+    height: 5vh;
+}
+
+.b-t-l, .b-t-r, .b-d-l, .b-d-r {
+    border-radius: 50%;
+    aspect-ratio: 1;
+    width: 40px;
+}
+
+.b-t-l, .b-d-r {
+    background-color: green;
+    border: 2px solid green;
+}
+
+.b-t-r, .b-d-l {
+    background-color: red;
+    border: 2px solid red;
+}
+
+.b-t-r, .b-d-r {
+    margin-left:100%;
+    margin-top:0vh;
+    transform: translate(-100%,-100%);
+}
+
+.becuri-dede {
+    /* border: 2px solid purple; */
+    height: 5vh;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+.main-buttons {
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 50vh;
+    transform: translate(-50%, -25vh);
+
+}
+
+.mosu {
+    font-size: 100px;
+    text-align: center;
+}
+
+#f-nume {
+    margin-left: 50%;
+    transform: translate(-25%, 0);
+    /* border: 5px solid black; */
+}
+
+
+
+.lebuton {
+    margin-top: 10px ;
+    font-size: 50px;
+    text-align: center;
+    border: 5px solid green;
+    background-color:red;
+    color:white;
+    width: 25%;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.lebuton:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
