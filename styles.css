@@ -44,7 +44,7 @@
     width: 50%;
     margin-left: 50%;
     margin-top: 50vh;
-    transform: translate(-50%, -25vh);
+    transform: translate(-50%, -50%);
 
 }
 
@@ -54,11 +54,36 @@
 }
 
 #f-nume {
+    gap: 10px;
     margin-left: 50%;
-    transform: translate(-25%, 0);
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
     /* border: 5px solid black; */
 }
+.radio{
+    appearance: none;
+   
+}
+.radio:checked + .label-radio{
+    background-color: blue;
+}
+.radio-container{
+    display: flex;
+    padding: 10px
 
+}
+.label-radio{
+    padding: 20px;
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.label-radio:checked{
+    background-color: black;
+}
 
 
 .lebuton {
@@ -76,4 +101,20 @@
 .lebuton:hover {
     opacity: 70%;
     cursor: pointer;
+}
+.red{
+    background-color: red;
+    border-color: red;
+}
+.green{
+    background-color: green;
+    border-color: green;
+}
+.input-name{
+
+}
+.input-name-container{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
 }
